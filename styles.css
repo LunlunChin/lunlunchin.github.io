@@ -1,0 +1,97 @@
+body {
+    
+    background-color:azure;
+    margin:0px;
+    opacity: none;
+    background-attachment: scroll;
+    background-size: 1700px 1000px;
+  }
+
+
+img {
+    width:230px;
+    border-radius: 400px;
+    float:left;
+    margin-right: 0px;
+    margin-left: 160px;
+    margin-bottom: 1000px;
+    margin-top: 0px;
+    
+
+}
+p.header{
+    font-weight:bold;
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+p.description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    color: gray;
+    
+    
+}
+
+
+div{
+    height:170px;
+}
+
+div.intro{
+    margin-bottom: 300px;
+}
+
+div.spacing{
+    background-color: khaki;
+    height:40px;
+}
+
+div.aboutme{
+    background-image:url(./images/aboutbg.jpg);
+    opacity:65%;
+    height:1000px;
+    background-size:1600px 2000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.abouttext{
+    color:red;
+    opacity:100%;
+}
+
+
+div.topheader{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    margin-left:90px;
+    margin-top:40px;
+    
+}
+
+div.introtext{
+    padding-left:500px;
+    padding-top: 40px;
+}
+
+
+
+.introbutton{
+    background-color: white;
+    font-size: 20px;
+    font-family:"audiowide", sans-serif;
+    font-weight:600;
+  color: black;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 15px 50px;
+  transition-duration: 0.6s;
+}
+
+.introbutton:hover {
+    background-color: grey; /* Green */
+    color: white;
+  }
+
