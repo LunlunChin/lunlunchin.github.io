@@ -1,6 +1,7 @@
 body {
     
     background-color:azure;
+    width:100%;
     margin:0px;
     opacity: none;
     background-attachment: scroll;
@@ -13,33 +14,49 @@ img {
     border-radius: 400px;
     float:left;
     margin-right: 0px;
-    margin-left: 160px;
+    margin-left: 150px;
     margin-bottom: 1000px;
-    margin-top: 0px;
+    margin-top: 40px;
     
 
 }
 p.header{
+    margin:0;
     font-weight:bold;
     font-size: 80px;
     margin-top: 0px;
+
 }
 
 p.description{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:20px;
     color: gray;
-    
+    padding-left:25px;
+    padding-top:10px;
     
 }
+
 
 
 div{
     height:170px;
 }
 
+div.topheader{
+    height:100px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    margin-left:90px;
+    margin-top:40px;
+    margin-bottom:10px;
+    
+}
+
 div.intro{
-    margin-bottom: 300px;
+    margin-bottom: 360px;
+    padding-left:30px;
 }
 
 div.spacing{
@@ -48,26 +65,22 @@ div.spacing{
 }
 
 div.aboutme{
-    background-image:url(./images/aboutbg.jpg);
-    opacity:65%;
+    background-color:rgb(160, 218, 236);
     height:1000px;
-    background-size:1600px 2000px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-div.abouttext{
-    color:red;
-    opacity:100%;
 }
 
 
-div.topheader{
-    color:black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px;
-    margin-left:90px;
-    margin-top:40px;
+
+
+
+
+
+.abouttitle{
+    margin:0;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:80px;
+    padding-right: 100px;
     
 }
 
