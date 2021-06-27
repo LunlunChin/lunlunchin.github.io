@@ -42,6 +42,7 @@ section {
 .section-header {
   text-align: center;
   padding-bottom: 40px;
+  
 }
 
 .section-header h2 {
@@ -52,9 +53,20 @@ section {
   color: #4154f1;
   text-transform: uppercase;
 }
+.section-header h3 {
+  font-size: 18px;
+  text-align:left;
+  
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-left: 100px;
+  color: #4154f1;
+  text-transform: uppercase;
+}
 
 .section-header p {
   margin: 10px 0 0 0;
+  margin-bottom:50px;
   padding: 0;
   font-size: 38px;
   line-height: 42px;
@@ -638,7 +650,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Features
+# Edu
 --------------------------------------------------------------*/
 .features .feature-box {
   padding: 24px 20px;
@@ -761,6 +773,19 @@ section {
   font-size: 15px;
   color: #848484;
 }
+
+.features .container img{
+
+    max-height: 400px;
+    margin-right: 0px;
+  
+}
+img.pic2{
+  padding-left: 700px;
+  padding-top:0;
+  
+}
+
 
 /*--------------------------------------------------------------
 # Services
