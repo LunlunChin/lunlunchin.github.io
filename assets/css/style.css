@@ -442,6 +442,10 @@ section {
   background-size: cover;
 }
 
+.hero .img-fluid{
+  border-radius: 15px;
+  margin-right:50px;
+}
 .hero h1 {
   margin: 0;
   font-size: 48px;
@@ -535,6 +539,10 @@ section {
 .about .content {
   background-color: #f6f9ff;
   padding: 40px;
+}
+
+.about .img-fluid{
+  border-radius: 10px;
 }
 
 .about h3 {
@@ -658,6 +666,10 @@ section {
   background-color: #F5F8FA;
   box-sizing: border-box;
   
+}
+
+.features .contents{
+  padding:30px;
 }
 
 /* .features .container .section-header p{
